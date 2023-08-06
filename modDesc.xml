@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="77">
+    <author>Jos Modding</author>
+    <version>1.0.0.0</version>
+    <title>Example Crop Calendar</title>
+
+    <description>
+        <en><![CDATA[This is an example map with a custom crop calendar.]]></en>
+    </description>
+
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <maps>
+        <map id="ExampleCropCalendar" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="map.xml" defaultVehiclesXMLFilename="maps/mapUS/vehicles.xml" defaultPlaceablesXMLFilename="maps/mapUS/placeables.xml" defaultItemsXMLFilename="maps/mapUS/items.xml">
+            <title>
+                <en>Example Crop Calendar</en>
+            </title>
+            <description>
+                <en>This is the sample mod map US.</en>
+            </description>
+            <iconFilename>preview.dds</iconFilename>
+        </map>
+    </maps>
+</modDesc>
